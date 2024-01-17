@@ -7,7 +7,7 @@ export const getPrefectures = async () => {
     const response = await axios.get(`${API_URL}prefectures`, {
       headers: {
         "Content-Type": "application/json",
-        "X-API-KEY": "daTsiG5MGvmkRaRsyQWCODottKZRJlprQjNMMCJY",
+        "X-API-KEY": "xxx",
       },
     });
 
